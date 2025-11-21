@@ -68,7 +68,7 @@ def mult_mod(A, B, mod=MOD):
 def transponer(M):
     return [list(col) for col in zip(*M)]
 
-#  Conversión lista matriz y matriz→lista
+#  Conversión lista matriz y matriz lista
 def lista_a_matriz(L):
     return [L[i:i+3] for i in range(0, len(L), 3)]
 # conversion matriz a lista

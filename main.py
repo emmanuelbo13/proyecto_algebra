@@ -17,14 +17,10 @@ mensaje = input("Escribe tu mensaje: ").lower()
 alfabeto = list(string.ascii_lowercase) + [" "]
 
 
-from math import gcd
-from methods import lista_a_matriz, determinante_3x3
-
 MOD = 27
 
-# -------------------------
 # Pedir clave 3×3 segura
-# -------------------------
+
 while True:
     entrada = input("Ingresa tu clave de 9 dígitos: ")
 
